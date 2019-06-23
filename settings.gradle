@@ -1,3 +1,4 @@
 include ':app',
+        ':feature:splash',
         ':core:android',
         ':feature:main'

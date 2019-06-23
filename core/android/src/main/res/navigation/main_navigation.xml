@@ -56,4 +56,17 @@
 
     </fragment>
 
+    <!--suppress AndroidDomInspection -->
+    <fragment
+            android:id="@+id/splash_fragment"
+            android:name="com.example.splash.ui.SplashFragment"
+            android:label="SplashFragment"
+            tools:layout="@layout/fragment_splash">
+
+        <action
+                android:id="@+id/action_splash_fragment_to_first_fragment"
+                app:destination="@id/first_fragment"/>
+
+    </fragment>
+
 </navigation>
