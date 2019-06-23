@@ -17,6 +17,7 @@ class SecondFragment : Fragment() {
 
     override fun onResume() {
         super.onResume()
+        NavigationHandler.currentPosition.value = NavigationHandler.secondPageId
         val view: View? = view
         if (view is View) {
             NavigationHandler.navigation = object : INavigation {
