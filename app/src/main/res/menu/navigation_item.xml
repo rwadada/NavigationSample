@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/first_page"
+        android:icon="@android:drawable/sym_action_call"
+        android:title="@string/first" />
+    <item
+            android:id="@+id/second_page"
+            android:icon="@android:drawable/ic_dialog_map"
+            android:title="@string/second" />
+
+    <item
+            android:id="@+id/third_page"
+            android:icon="@android:drawable/ic_input_add"
+            android:title="@string/third" />
+</menu>
